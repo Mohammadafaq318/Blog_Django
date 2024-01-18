@@ -7,7 +7,7 @@ def index(request):
      return render(request,"blog/index.html")
  
 def posts(request):
-     pass
+     return render(request,"blog/all-posts.html")
 
 def individual_post(request):
      pass
