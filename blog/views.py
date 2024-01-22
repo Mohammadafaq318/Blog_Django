@@ -96,3 +96,5 @@ def individual_post(request,slug ):
           return render(request,"blog/post-detail.html",
                         {"post_detail": current_post}
                         )
+     else:
+          return render(request,"404.html")
